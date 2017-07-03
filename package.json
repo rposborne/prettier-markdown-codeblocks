@@ -1,13 +1,13 @@
 {
   "name": "prettier-markdown-codeblocks",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Pass code fenced markdown to prettier for formatting.",
+  "main": "./lib/prettier-markdown-codeblocks.js",
   "bin": "./bin/prettier-markdown-codeblocks",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": ["Russell Osborne", "Michael V. O'Brien"],
   "license": "MIT",
   "dependencies": {
     "prettier": "^1.5.2"
