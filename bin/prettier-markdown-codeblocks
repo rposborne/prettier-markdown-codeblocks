@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const fs = require("fs");
+const prettierMarkdownCodeblocks = require("../lib/prettier-markdown-codeblocks");
+const fileToClean =
+  process.argv[2] ||
+  "/Users/rposborne/code/codex/content/css/flexbox/using_flexbox/prose.md";
+
+const markDown = fs.readFileSync(fileToClean, "utf8");
+prettierMarkdownCodeblocks.cleanFile(markDown);

@@ -1,0 +1,15 @@
+{
+  "name": "prettier-markdown-codeblocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/prettier-markdown-codeblocks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.5.2"
+  }
+}
