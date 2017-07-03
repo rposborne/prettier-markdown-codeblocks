@@ -7,9 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": ["Russell Osborne", "Michael V. O'Brien"],
+  "author": [
+    "Russell Osborne",
+    "Michael V. O'Brien"
+  ],
   "license": "MIT",
   "dependencies": {
-    "prettier": "^1.5.2"
+    "prettier": "^1.5.2",
+    "tmp": "0.0.31"
   }
 }
