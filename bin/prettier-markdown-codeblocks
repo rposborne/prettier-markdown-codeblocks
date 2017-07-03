@@ -1,9 +1,22 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const prettierMarkdownCodeblocks = require("../lib/prettier-markdown-codeblocks");
-const fileToClean =
-  process.argv[2] ||
-  "/Users/rposborne/code/codex/content/css/flexbox/using_flexbox/prose.md";
+let markDown = "";
+if (process.argv[2]) {
+  markDown = fs.readFileSync(process.argv[2], "utf8");
+} else {
+  var readline = require("readline");
+  var rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+    terminal: false
+  });
 
-const markDown = fs.readFileSync(fileToClean, "utf8");
-prettierMarkdownCodeblocks.cleanFile(markDown);
+  rl.on("line", line => {
+    markDown += `${line}\n`;
+  });
+
+  rl.on("close", () => {
+    prettierMarkdownCodeblocks.cleanFile(markDown);
+  });
+}
