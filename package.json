@@ -16,6 +16,10 @@
     "prettier": "^1.5.2",
     "tmp": "0.0.31"
   },
+  "jest": {
+    "collectCoverage" : true,
+    "collectCoverageFrom" : ["**/*.{js,jsx}", "!**/node_modules/**", "!**/vendor/**"]
+  },
   "devDependencies": {
     "jest": "^20.0.4"
   }
