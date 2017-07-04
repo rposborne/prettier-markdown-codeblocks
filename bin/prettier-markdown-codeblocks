@@ -3,7 +3,6 @@ const pmc = require("../lib/prettier-markdown-codeblocks");
 let markDown = "";
 const path = process.argv[2];
 if (path) {
-  console.log(`Correcting ${path}`)
   pmc.correctDir(path)
 } else {
   var readline = require("readline");
@@ -18,6 +17,6 @@ if (path) {
   });
 
   rl.on("close", () => {
-    process.stdout.write(pmc.cleanFile(markDown));
+    process.stdout.write(pmc.correctString(markDown));
   });
 }
