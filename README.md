@@ -7,6 +7,7 @@ Format codeblocks in markdown files using [prettier](https://prettier.io/) and [
 Currently Supports 
 
 - Javascript
+- JSON
 - Ruby (via rubocop `gem install rubocop`)
 - CSS
 - SCSS
