@@ -1,5 +1,7 @@
 # Prettier Markdown Codeblocks
 
+[![Build Status](https://travis-ci.org/TIYDC/prettier-markdown-codeblocks.svg?branch=master)](https://travis-ci.org/TIYDC/prettier-markdown-codeblocks)
+
 Format codeblocks in markdown files using [prettier](https://prettier.io/) and [rubocop](https://github.com/bbatsov/rubocop).  
 
 Currently Supports 
