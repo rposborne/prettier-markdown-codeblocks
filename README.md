@@ -1,6 +1,8 @@
 # Prettier Markdown Codeblocks
 
 [![Build Status](https://travis-ci.org/TIYDC/prettier-markdown-codeblocks.svg?branch=master)](https://travis-ci.org/TIYDC/prettier-markdown-codeblocks)
+[![Version](https://img.shields.io/npm/v/prettier-markdown-codeblocks.svg)](https://www.npmjs.com/package/prettier-markdown-codeblocks)
+[![Downloads](https://img.shields.io/npm/dt/prettier-markdown-codeblocks.svg)](https://www.npmjs.com/package/prettier-markdown-codeblocks)
 
 Format codeblocks in markdown files using [prettier](https://prettier.io/) and [rubocop](https://github.com/bbatsov/rubocop).  
 
@@ -12,21 +14,27 @@ Currently Supports
 - CSS
 - SCSS
 
+Wishlist
+
+- Java
+- C#
+- Python
+
 ## Usage
 
 Directory
 ```sh
-prettier-markdown-codeblocks .
+prettier-markdown-codeblocks <directory>
 ```
 
 File
 ```sh
-prettier-markdown-codeblocks prose.md
+prettier-markdown-codeblocks <file.md>
 ```
 
 Stdin
 ```sh
-cat prose.md | prettier-markdown-codeblocks | tee prose.md
+cat <file.md> | prettier-markdown-codeblocks | tee <file.md>
 ```
 
 ## Contributing
