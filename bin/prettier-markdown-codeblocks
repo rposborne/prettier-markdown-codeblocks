@@ -2,8 +2,10 @@
 const pmc = require("../lib/prettier-markdown-codeblocks");
 let markDown = "";
 const path = process.argv[2];
-if (path) {
-  pmc.correctDir(path)
+if (path === "-h" || path === "--help") {
+  console.log(require('../lib/usage'));
+} else if (path) {
+  pmc.correctDir(path);
 } else {
   var readline = require("readline");
   var rl = readline.createInterface({
