@@ -1,6 +1,6 @@
 {
   "name": "prettier-markdown-codeblocks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pass code fenced markdown to prettier for formatting.",
   "main": "./lib/prettier-markdown-codeblocks.js",
   "bin": "./bin/prettier-markdown-codeblocks",
