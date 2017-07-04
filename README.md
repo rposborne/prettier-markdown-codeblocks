@@ -6,6 +6,8 @@
 
 Format codeblocks in markdown files using [prettier](https://prettier.io/) and [rubocop](https://github.com/bbatsov/rubocop).  
 
+![Autocorrecting markdown codeblocks](docs/demo.gif)
+
 Currently Supports 
 
 - Javascript
