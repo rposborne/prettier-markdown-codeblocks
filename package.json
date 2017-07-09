@@ -21,7 +21,8 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "**/*.{js,jsx}",
+      "lib/**/*.{js,jsx}",
+      "bin/**/*.{js,jsx}",
       "!**/node_modules/**",
       "!**/vendor/**"
     ]

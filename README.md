@@ -8,13 +8,16 @@ Format codeblocks in markdown files using [prettier](https://prettier.io/) and [
 
 ![Autocorrecting markdown codeblocks](docs/demo.gif)
 
-Currently Supports 
+Supports
 
-- Javascript
-- JSON
-- Ruby (via rubocop `gem install rubocop`)
-- CSS
-- SCSS
+- JavaScript, including [ES2017](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+- [JSX](https://facebook.github.io/jsx/)
+- [Flow](https://flow.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- CSS, [LESS](http://lesscss.org/), and [SCSS](http://sass-lang.com)
+- [JSON](http://json.org/)
+- [GraphQL](http://graphql.org/)
+- [Ruby](http://ruby-lang.org/) (via rubocop `gem install rubocop`)
 
 Wishlist
 
