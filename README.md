@@ -19,9 +19,11 @@ Supports
 - [GraphQL](http://graphql.org/)
 - [Ruby](http://ruby-lang.org/) (via rubocop `gem install rubocop`)
 
+We aslo support full customization using .eslintrc.js file and respctive .rubocop.yml configuration files to tweak the formatted style to your projects requirements.
+
 Wishlist
 
-- Java
+- Java (in progress)
 - C#
 - Python
 
@@ -46,7 +48,7 @@ cat <file.md> | prettier-markdown-codeblocks | tee <file.md>
 
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/TIYDC/prettier-markdown-codeblocks. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rposborne/prettier-markdown-codeblocks. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
